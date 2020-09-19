@@ -5,7 +5,7 @@ public class BubbleSort {
         int[] arrayList = {99, 55, 1, 3, -22, 15, -15};
 
         for (int lastIndexUnsorted = arrayList.length - 1; lastIndexUnsorted > 0; lastIndexUnsorted--) {
-            for (int i = 0; i < arrayList.length - 1; i++) {
+            for (int i = 0; i < lastIndexUnsorted; i++) {
                 if (arrayList[i] > arrayList[i + 1]) {
                     swap(arrayList, i, i + 1);
                 }
