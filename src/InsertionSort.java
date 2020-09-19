@@ -15,6 +15,5 @@ public class InsertionSort {
         for (int i = 0; i < arrayList.length - 1; i++) {
             System.out.println(arrayList[i]);
         }
-
     }
 }
