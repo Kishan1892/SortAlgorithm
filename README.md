@@ -1,3 +1,3 @@
 # SortAlgorithm
 
-Implemented Bubble, Selection and Insertion Sort
+Implemented Bubble, Selection Insertion, Shell Sort
