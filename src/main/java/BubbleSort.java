@@ -1,9 +1,6 @@
 public class BubbleSort {
 
-    public static void main(String[] args) {
-
-        int[] arrayList = {99, 55, 1, 3, -22, 15, -15};
-
+    public int[] bubbleSort(int[] arrayList) {
         for (int lastIndexUnsorted = arrayList.length - 1; lastIndexUnsorted > 0; lastIndexUnsorted--) {
             for (int i = 0; i < lastIndexUnsorted; i++) {
                 if (arrayList[i] > arrayList[i + 1]) {
@@ -11,9 +8,7 @@ public class BubbleSort {
                 }
             }
         }
-        for (int i = 0; i < arrayList.length - 1; i++) {
-            System.out.println(arrayList[i]);
-        }
+        return arrayList;
     }
 
     public static void swap(int[] array, int i, int j) {
