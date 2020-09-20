@@ -3,7 +3,7 @@ public class ShellSort {
 
         int[] arrayList = {99, 55, 1, 3, -22, 15, -15};
 
-        for (int gap = arrayList.length / 2; gap > 0; gap--) {
+        for (int gap = arrayList.length / 2; gap > 0; gap/=2) {
             for (int i = gap; i < arrayList.length; i++) {
                 int element = arrayList[i];
                 int j = i;
